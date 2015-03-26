@@ -1,0 +1,14 @@
+## Interface: 60100
+## Author: 10leej
+## Title: BobHUD
+## Notes: Bob's Obsessive Bigonted Heads up Display.
+
+config.lua
+modules\castbars.lua
+modules\combo.lua
+modules\eclipse.lua
+modules\runes.lua
+modules\units\player.lua
+modules\units\pet.lua
+modules\units\target.lua
+modules\units\focus.lua
