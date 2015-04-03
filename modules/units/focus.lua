@@ -12,6 +12,9 @@ f.back:SetSize(unpack(cfg.focus.barsize))
 f.back:SetPoint("CENTER",UIParent,cfg.focus.healthx,cfg.focus.healthy)
 f.back:SetTexture("Interface\\Addons\\BobHUD\\media\\powerbar")
 f.back:SetVertexColor(0,0,0,cfg.focus.alpha)
+if cfg.transparency.OOCfade then
+  f.back:Hide()
+end
 --health bar
 f.hp = CreateFrame("StatusBar",nil,f,"TextStatusBar")
 f.hp:SetSize(unpack(cfg.focus.barsize))
